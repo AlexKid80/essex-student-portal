@@ -44,7 +44,7 @@ This module includes coursework materials related to Python-based data analysis 
 
 
 
-\\Teaching Staff:\\
+\Teaching Staff:\
 
 \- PhD Candidate Dimitris Sakavalas
 
@@ -66,11 +66,11 @@ This module includes coursework materials related to Python-based data analysis 
 
 \- `rapid.html` - AI117 module page
 
-\- `assets/` - stylesheets, scripts and institutional logos
+\- `assets` - stylesheets, scripts and institutional logos
 
-\- `processes/` - Altair AI Studio process files and complete ZIP package
+\- `processes` - Altair AI Studio process files and complete ZIP package
 
-\- `algorithms/` - Machine Learning algorithm resources
+\- `algorithms` - Machine Learning algorithm resources
 
-\- `plots/` - exported plots and visualisations
+\- `plots` - exported plots and visualisations
 
