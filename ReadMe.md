@@ -40,11 +40,11 @@ This module includes coursework materials related to Python-based data analysis 
 
 
 
-\\Module Supervisor:\\ PhD Kyriakos Skoularikis
+Module Supervisor: PhD Kyriakos Skoularikis
 
 
 
-\Teaching Staff:\
+Teaching Staff:
 
 \- PhD Candidate Dimitris Sakavalas
 
