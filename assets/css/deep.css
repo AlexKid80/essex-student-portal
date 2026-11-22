@@ -1,0 +1,22 @@
+.deep-page .category-card {
+  min-height: 0;
+}
+
+.deep-page .category-card > p {
+  min-height: 0;
+}
+
+.deep-models {
+  margin-top: 60px;
+}
+
+.deep-page a:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
+
+@media (max-width: 680px) {
+  .deep-models {
+    margin-top: 44px;
+  }
+}

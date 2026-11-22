@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Telco Customer Churn dataset, Jupyter notebook and saved models for the AI105 (AG704) Neural Nets & Deep Learning coursework.">
+  <meta name="author" content="Alexandros Tsangarides">
+  <title>AI105 (AG704) | Neural Nets &amp; Deep Learning</title>
+  <link rel="stylesheet" href="assets/css/rapid.css">
+  <link rel="stylesheet" href="assets/css/deep.css">
+</head>
+<body class="deep-page">
+  <header class="site-header">
+    <div class="page-shell header-inner">
+      <a class="back-link" href="./">Back</a>
+      <span class="module-code">AI105 (AG704)</span>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="page-shell">
+        <div class="institution-row">
+          <div class="logo-panel">
+            <img src="assets/images/col.png" alt="Aegean College">
+          </div>
+          <div class="partnership-mark">in partnership with</div>
+          <div class="logo-panel">
+            <img src="assets/images/essex.png" alt="University of Essex">
+          </div>
+        </div>
+
+        <div class="hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">MSc in Artificial Intelligence</p>
+            <h1>Neural Nets &amp; Deep Learning</h1>
+            <p class="intro">
+              An AI105 project on predicting which telecom customers will leave. The coursework compares
+              a logistic regression baseline, TensorFlow/Keras neural networks, and tree ensembles.
+            </p>
+          </div>
+
+          <aside class="student-card">
+            <span class="student-label">Individual coursework</span>
+            <h2>Alexandros Tsangarides</h2>
+            <dl>
+              <div>
+                <dt>Project</dt>
+                <dd>Telco Customer Churn</dd>
+              </div>
+              <div>
+                <dt>Programme</dt>
+                <dd>MSc in AI</dd>
+              </div>
+              <div>
+                <dt>Module code</dt>
+                <dd>AI105 (AG704)</dd>
+              </div>
+            </dl>
+          </aside>
+        </div>
+      </div>
+    </section>
+
+    <section class="page-shell summary-strip" aria-label="Coursework summary">
+      <div><strong>7,043</strong><span>Original customer records</span></div>
+      <div><strong>9</strong><span>Models evaluated</span></div>
+      <div><strong>9</strong><span>Saved models available</span></div>
+    </section>
+
+    <div class="page-shell content-section">
+      <section aria-labelledby="project-files">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Coursework resources</p>
+            <h2 id="project-files">Dataset and notebook</h2>
+          </div>
+          <p>To run the notebook locally, place the CSV and notebook in the same folder.</p>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">CSV dataset</span></div>
+            <h3>IBM Telco Customer Churn</h3>
+            <p>Customer demographics, services, contracts and billing data. Original source: IBM Sample Data Sets, available on Kaggle. A copy named assignment.csv is provided for use with the Python notebook.</p>
+            <div class="file-list">
+              <a class="file-link" href="https://www.kaggle.com/datasets/blastchar/telco-customer-churn" target="_blank" rel="noopener noreferrer">
+                <span><strong>Original dataset on Kaggle</strong><small>IBM Telco Customer Churn - source and attribution</small></span>
+                <span class="download-icon" aria-hidden="true">&#8599;</span>
+              </a>
+              <a class="file-link" href="deeplearn/dataset/assignment.csv" download>
+                <span><strong>Dataset for Python</strong><small>Download assignment.csv</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">Jupyter notebook</span></div>
+            <h3>Python analysis and training</h3>
+            <p>Explores and prepares the data, trains and compares nine classifiers, tunes an MLP with KerasTuner, and explains predictions with SHAP.</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/script/assignment.ipynb" download>
+                <span><strong>Download notebook</strong><small>assignment.ipynb</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="deep-models" aria-labelledby="saved-models">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Model files</p>
+            <h2 id="saved-models">Saved models</h2>
+          </div>
+          <p>The notebook shows the preprocessing needed to use these models and also includes the Basic MLP experiment.</p>
+        </div>
+
+        <div class="category-grid">
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">scikit-learn</span></div>
+            <h3>Logistic Regression</h3>
+            <p>The baseline classifier estimates churn probability from the prepared features. It achieved a test ROC-AUC of 0.8352.</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/models/logistic_regression.joblib" download aria-label="Download Logistic Regression model">
+                <span><strong>Download model</strong><small>logistic_regression.joblib</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">Keras</span></div>
+            <h3>Basic MLP</h3>
+            <p>The first neural network tested. It uses two hidden layers with 32 and 16 neurons and serves as the reference for the later MLP variants.</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/models/mlp_basic.keras" download aria-label="Download Basic MLP model">
+                <span><strong>Download model</strong><small>mlp_basic.keras</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">Keras</span></div>
+            <h3>MLP with Batch Normalization</h3>
+            <p>Adds batch normalization before the ReLU activation in each hidden layer to test its effect on training and validation performance.</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/models/mlp_bn.keras" download aria-label="Download Batch Normalization MLP model">
+                <span><strong>Download model</strong><small>mlp_bn.keras</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">Keras</span></div>
+            <h3>MLP with Dropout</h3>
+            <p>Uses 20% dropout after each hidden layer during training as an attempt to reduce overfitting.</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/models/mlp_drop.keras" download aria-label="Download Dropout MLP model">
+                <span><strong>Download model</strong><small>mlp_drop.keras</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">Keras</span></div>
+            <h3>MLP with L2 Regularization</h3>
+            <p>Applies an L2 penalty of 0.001 to the weights of both hidden layers to discourage large weights.</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/models/mlp_l2.keras" download aria-label="Download L2 Regularization MLP model">
+                <span><strong>Download model</strong><small>mlp_l2.keras</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">Keras</span></div>
+            <h3>Residual MLP</h3>
+            <p>Adds a projected shortcut from the first hidden layer to the second layer's output before the final prediction.</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/models/mlp_res.keras" download aria-label="Download Residual MLP model">
+                <span><strong>Download model</strong><small>mlp_res.keras</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">KerasTuner</span></div>
+            <h3>Tuned MLP</h3>
+            <p>Random search selected a network with 64 and 16 hidden units. Among the four models tested, it had the highest F1 score (0.6101) and recall (0.5963).</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/models/mlp_tuned.keras" download aria-label="Download Tuned MLP model">
+                <span><strong>Download model</strong><small>mlp_tuned.keras</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">scikit-learn</span></div>
+            <h3>Random Forest</h3>
+            <p>An ensemble of 200 decision trees used to compare a nonlinear tree-based approach with the neural networks on the validation set.</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/models/random_forest.joblib" download aria-label="Download Random Forest model">
+                <span><strong>Download model</strong><small>random_forest.joblib</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+
+          <article class="category-card">
+            <div class="category-top"><span class="category-tag">Gradient boosting</span></div>
+            <h3>XGBoost</h3>
+            <p>A boosted tree classifier that achieved the highest test ROC-AUC (0.8381) among the four models evaluated on the test set.</p>
+            <div class="file-list">
+              <a class="file-link" href="deeplearn/models/xgboost_model.joblib" download aria-label="Download XGBoost model">
+                <span><strong>Download model</strong><small>xgboost_model.joblib</small></span>
+                <span class="download-icon" aria-hidden="true">&darr;</span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="page-shell footer-inner">
+      <span>Aegean College &middot; AI105 (AG704)</span>
+      <span id="current-year"></span>
+    </div>
+  </footer>
+
+  <script src="assets/js/rapid.js"></script>
+</body>
+</html>
