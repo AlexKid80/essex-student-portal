@@ -1,4 +1,4 @@
-# MSc Artificial Intelligence — Student Portal
+# MSc Artificial Intelligence - Student Portal
 
 Coursework archive and project resources by **Alexandros Tsangarides**, created during the MSc in Artificial Intelligence programme delivered by **Aegean College** in partnership with the **University of Essex**.
 
@@ -14,7 +14,7 @@ Coursework archive and project resources by **Alexandros Tsangarides**, created 
 | 04 · AI104 | Machine Learning & Python | Exploratory analysis, energy-consumption datasets, regression, K-Means and Jupyter notebooks | [Open](mlai.html) |
 | 05 · AI105 (AG704) | Neural Nets & Deep Learning | Telecom customer churn prediction with TensorFlow/Keras, hyperparameter tuning and SHAP | [Open](deep.html) |
 
-## Module 05 — Telco Customer Churn
+## Module 05 - Telco Customer Churn
 
 The AI105 coursework uses the **IBM Telco Customer Churn** dataset to compare **nine classification models**: Logistic Regression, six MLP variants (including the tuned MLP), Random Forest and XGBoost.
 
